@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002FSaffy-App\u002F_nuxt\u002Fstatic\u002F1652622234",layout:"default",error:a,serverRendered:true,routePath:"\u002Fcontact-us",config:{BASE_URL:"\u002FSaffy-App",_app:{basePath:"\u002FSaffy-App\u002F",assetsPath:"\u002FSaffy-App\u002F_nuxt\u002F",cdnURL:a}}}}(null));

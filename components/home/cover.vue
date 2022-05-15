@@ -9,7 +9,7 @@
     <v-carousel-item
       v-for="(item,i) in slides"
       :key="i"
-      :src="item.img"
+      :src="`${$config.BASE_URL}/${item.img}`"
     >
 
         <v-row
@@ -39,8 +39,8 @@ export default {
 
 
         slides: [
-          { heading:'We are Saffy',text:'The world first biological solution for water purification',img:'/img/slides/bg-1.svg'},
-          { heading:'We are Saffy',text:'The world first biological solution for water purification',img:'/img/slides/bgHero.jpg'}
+          { heading:'We are Saffy',text:'The world first biological solution for water purification',img:'img/slides/bg-1.svg'},
+          { heading:'We are Saffy',text:'The world first biological solution for water purification',img:'img/slides/bgHero.jpg'}
         ],
       }
     },

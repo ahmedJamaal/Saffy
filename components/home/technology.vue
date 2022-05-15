@@ -24,13 +24,13 @@
   </v-row>
   <v-row justify="center" align="center">
      <v-col cols="4">
-      <v-img width="50%" :src="`${$config.BASE_URL}/img/BOTTLE.SVG`"></v-img>
+      <v-img width="50%" :src="`${$config.BASE_URL}/img/BOTTLE.png`"></v-img>
     </v-col>
     <v-col cols="3">
       <div class="arrow-1"></div>
     </v-col>
     <v-col cols="4">
-      <v-img width="100%" :src="`${$config.BASE_URL}/img/FACTORY.SVG`"></v-img>
+      <v-img width="100%" :src="`${$config.BASE_URL}/img/FACTORY.png`"></v-img>
     </v-col>
   </v-row>
 </v-container>
