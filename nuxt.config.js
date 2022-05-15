@@ -1,7 +1,14 @@
 import colors from 'vuetify/es5/util/colors'
+const routerBase = process.env.DEPLOY_ENV ===  'GH_PAGES' ? {
 
+
+}:{}
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  mode:'static',
+  router:{
+    base:'/saffy-LandingPage/'
+  },
   head: {
     titleTemplate: '%s - saffyWater-landingPage',
     title: 'saffyWater-landingPage',
@@ -31,7 +38,7 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
-
+  ...routerBase,
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/eslint
