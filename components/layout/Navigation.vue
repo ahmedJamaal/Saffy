@@ -1,51 +1,11 @@
 <template>
   <div>
-    <v-navigation-drawer
-      v-model="drawer"
-      app
-      temporary
-
-      color="primary"
-
-    >
-
-      <v-list>
-        <v-list-item>
-          <v-list-item-avatar>
-            <logo />
-          </v-list-item-avatar>
-          <v-list-item-content>
-            <v-list-item-title class="title">Saffys</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-
-      <v-divider />
-
-      <v-list dense>
-        <v-list-item
-         v-for="(item, i) in items"
-          :key="i"
-        :to="item.link"
-        router
-        exact
-        >
-
-          <v-list-item-content>
-            <v-list-item-title class="subtitile-1">{{
-              item.name
-            }}</v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-
     <v-app-bar
       app
-      :color="color"
+      absolute
+       color="white"
       :flat="flat"
       dark
-      class="px-15"
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
@@ -57,10 +17,11 @@
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
         class="mr-4"
+        color="primary"
         v-if="isXs"
       />
       <div v-else >
-        <v-btn v-for="(item, i) in items"
+        <nuxt-link v-for="(item, i) in items"
           :key="i"
         :to="item.link"
         router
@@ -70,7 +31,7 @@
         small
         >
           <span class="mr-2">{{item.name}}</span>
-        </v-btn>
+        </nuxt-link>
       </div>
     </v-app-bar>
   </div>
@@ -89,6 +50,7 @@ export default {
     color: "#efefef",
     flat: true,
    items: [
+      {name:"Home", link:"/"},
       {name:"Our story", link:"/ourStory"},
       {name:"Saffy technology", link:"/saffy-technology"},
       {name:"Products", link:"/products"},

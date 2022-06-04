@@ -1,38 +1,58 @@
 <template>
-  <div class="mission">
-    <v-row>
-    <v-col class="text-center">
-      <h1>The Mission</h1>
-    </v-col>
-  </v-row>
-  <div class="mission-cover">
-      <v-row >
-    <v-col cols="12" class="text-center">
-      <h3>Water is the most precious ressources although
-1.8 Billion people are subjected to contaminated
-drinking water</h3>
-    </v-col>
-    <v-col cols="12" class="text-center">
-      <h3>80% of waste water flows back to the ecosystem</h3>
-    </v-col>
-  </v-row>
-  </div>
+  <div class="mission p-12">
+          <div class="number-heading">2</div>
+    <v-row justify="center" align="center">
+      <v-col cols="10">
+        <div class="heading text-center">
+        <h1>The Mission</h1>
+        </div>
+        <div class="sub-heading">
 
+          <div class="overlay">
+            <h3 class="py-15">
+              Water is the most precious resources although 1.8 Billion people
+              are subjected to contaminated drinking water
+            </h3>
+            <h3 class="py-15">
+              80% of waste water flows back to the ecosystem
+            </h3>
+          </div>
+        </div>
+      </v-col>
+    </v-row>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'mission'
-}
+  name: "mission",
+};
 </script>
-<style>
-.mission-cover {
 
-  background-image: url("~@/assets/images/slides/bg-1.svg");
-   background-attachment: fixed;
+<style scoped>
+
+.overlay {
+  background-image: url(/rotate-bg-main.svg);
+  /* background-repeat: no-repeat; */
   background-position: center;
-  background-size: 100%;
+  text-transform: uppercase;
+
+   background-size: 100% 70%;
+  background-color: #efefef;
+  margin: 0 auto;
+}
+
+.sub-heading {
+ max-width: 70%;
+}
+.heading {
 
 }
+.number-heading {
+  font-size: 250px;
+  line-height: 250px;
+  width: 10%;
+float: left;
+}
+
 </style>

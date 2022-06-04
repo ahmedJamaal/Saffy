@@ -5,12 +5,15 @@ const routerBase = process.env.DEPLOY_ENV ===  'GH_PAGES' ? {
 }:{}
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  mode:'static',
+  //mode:'static',
+  ssr:true,
   router:{
-    base:'/saffy-LandingPage/'
+    //for github pages
+    // base:'/saffy-LandingPage/'
+    base:'/'
   },
   head: {
-    titleTemplate: '%s - saffyWater-landingPage',
+    titleTemplate: '%s - ',
     title: 'saffyWater-landingPage',
     htmlAttrs: {
       lang: 'en'
@@ -28,7 +31,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-//css: ["~/assets/style.css"],
+    "~assets/style/style.css",
+    "~assets/style/variables.scss"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -44,9 +48,15 @@ export default {
     // https://go.nuxtjs.dev/eslint
     ///'@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify'
-  ],
+    '@nuxtjs/vuetify',
+    '@nuxtjs/style-resources',
 
+    ///'@nuxtjs/style-resources',
+  ],
+  styleResources: {
+    // your settings here
+    scss: ['@/assets/style.scss']
+ },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
@@ -61,7 +71,7 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
-    customVariables: ['~/assets/variables.scss'],
+    customVariables: [ /**'~/assets/variables.scss'*/],
     theme: {
       dark: false,
       themes: {

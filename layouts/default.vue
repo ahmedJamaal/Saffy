@@ -34,7 +34,5 @@ export default {
   background-position: center;
   background-size: cover;
 }*/
-h1 {
-  font-size: 20px;
-}
+
 </style>

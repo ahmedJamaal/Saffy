@@ -1,0 +1,46 @@
+/* Global color value*/
+/*@import url("variables.scss");
+/* https://stackoverflow.com/questions/15649244/responsive-font-size-in-css*/
+
+@font-face {
+  font-family: "EBGaramond";
+  src: local("EBGaramond"),
+   url('../fonts/EBGaramond-Regular.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Garamond";
+  src: local("Garamond"),
+   url('../fonts/Garamond-Normal.ttf') format("truetype");
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: local("Comfortaa"),
+   url('../fonts/Comfortaa-Regular.ttf') format("truetype");
+}
+:root {
+  /* colors*/
+  --main-color:  #212282;
+  --dark-color:  #000;
+  --light-color:  #fff;
+   /* const nav */
+  --nav-heigh:  200px;
+  --nav-font-size:  9px;
+  --nav-color:#414196;
+
+
+  /**/
+  /**/
+
+}
+
+h1 , h3{
+  color: var(--main-color);
+  font-family: "Garamond";
+}
+h1{
+  font-size: 32px;
+}
+h3{
+  font-size: 18px;
+
+}
