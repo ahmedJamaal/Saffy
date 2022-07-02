@@ -9,8 +9,8 @@ export default {
   ssr:true,
   router:{
     //for github pages
-    // base:'/saffy-LandingPage/'
-    base:'/'
+    base:'/Saffy/'
+    ///base:'/'
   },
   head: {
     titleTemplate: '%s - ',
