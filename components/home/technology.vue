@@ -1,60 +1,54 @@
 <template>
-<v-container>
-    <v-row class="text-center">
-    <v-col cols="12">
-      <h1>The Saffy technology</h1>
-    </v-col>
-    <v-col cols="12">
-      <h3>
-        To purify water, Saffy conceived a bio membrane consisting of 3 major
-        layers. Each layer takes care of a certain type of pollutant
-      </h3>
-      <br />
-      <h3>
-        The system prevents contaminations both inside and outside the system,
-        without altering the natural properties of drinking water
-      </h3>
-      <br />
-      <h3>
-        Saffy bio membrane is self-sufficient and can be scaled from a personal
-        water bottle up to large industrial or community-owned units
-      </h3>
-    </v-col>
+  <section class="technology py-100">
+    <v-row justify="center" align="end" class="py-0">
+        <v-col cols="2">
+        <div class="number-heading">3</div>
+      </v-col>
+      <v-col cols="3">
+        <h3>The Saffy technology</h3>
+        <p class="mt-5">
+          To purify water, Saffy conceived a bio membrane consisting of 3 major layers.
+          Each layer takes care of a certain type of pollutant
+        </p>
+      </v-col>
 
-  </v-row>
-  <v-row justify="center" align="center">
-     <v-col cols="4">
-      <v-img width="50%" src="/img/BOTTLE.SVG"></v-img>
-    </v-col>
-    <v-col cols="3">
-      <div class="arrow-1"></div>
-    </v-col>
-    <v-col cols="4">
-      <v-img width="100%" src="/img/FACTORY.SVG"></v-img>
-    </v-col>
-  </v-row>
-</v-container>
+    </v-row>
+    <v-row justify="center" align="center" class="py-0">
+      <v-col cols="3">
+        <p>
+          The system prevents contaminations both inside and outside the system, without
+          altering the natural properties of drinking water
+        </p>
+      </v-col>
+      <v-col cols="2" >
+        <v-img class="mr-auto" src="/img/technology-right.svg" max-height="150" max-width="150"></v-img>
+      </v-col>
+    </v-row>
+    <v-row justify="center" align="center" class="py-0">
+      <v-col cols="2">
+        <v-img src="/img/technology-left.svg" max-height="150" max-width="150" class="ml-auto" ></v-img>
+      </v-col>
+      <v-col cols="3">
+        <p>
+          Saffy bio membrane is self-sufficient and can be scaled from a personal water
+          bottle up to large industrial or community-owned units
+        </p>
+      </v-col>
+    </v-row>
+
+    <v-row justify="center" align="center" class="py-0">
+      <v-img width="100%" height="200px" src="/img/saffy_products.svg"></v-img>
+    </v-row>
+  </section>
 </template>
 <script>
 export default {
   name: "TechnolgoySection",
 };
 </script>
-<style>
-.arrow-1 {
-  width:250px;
-  height:30px;
-  display: flex;
-}
-.arrow-1:before {
-  content: "";
-  background: currentColor;
-  width:15px;
-  clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
-  animation: a1 1.5s infinite linear;
-}
-@keyframes a1 {
-  90%,100%{flex-grow: 1}
-}
+<style scoped>
+.number-heading {
+ text-align: right;
 
+}
 </style>

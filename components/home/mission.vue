@@ -1,26 +1,25 @@
 <template>
-  <div class="mission p-12">
-          <div class="number-heading">2</div>
-      <v-row justify="center" align="center">
-    <div class="mission-card">
-      <v-col cols="8">
-        <div class="heading text-center">
-        <h1>The Mission</h1>
-        </div>
-        <div class="sub-heading">
+  <div class="mission p-12 pb-100">
+    <v-row justify="center" align="end" class="py-0">
+      <v-col cols="2">
+        <h3>The Mission</h3>
+      </v-col>
+    </v-row>
+          <div class="number-heading">1</div>
+    <v-row justify="center" align="center">
+      <v-col cols="6">
+          <div class="sub-heading">
+            <p>
+            Water is the most precious resources although 1.8 Billion people are
+            subjected to contaminated drinking water.
+          </p>
+          <p>
+            80% of waste water flows back to the ecosystem.
+          </p>
 
-          <div class="overlay">
-            <h3 class="py-15">
-              Water is the most precious resources although 1.8 Billion people
-              are subjected to contaminated drinking water
-            </h3>
-            <h3 class="py-15">
-              80% of waste water flows back to the ecosystem
-            </h3>
-          </div>
+        <div class="overlays"> </div>
         </div>
       </v-col>
-    </div>
     </v-row>
   </div>
 </template>
@@ -32,36 +31,45 @@ export default {
 </script>
 
 <style scoped>
-
-.overlay {
-  background-image: url(/rotate-bg-main.svg);
-  /* background-repeat: no-repeat; */
-  background-position: center;
-  text-transform: uppercase;
-
-   background-size: 100% 70%;
-  background-color: #efefef;
-
+.mission {
+   position: relative;
+  width: 100%;
+  height: 100%;
+}
+.overlays {
+  background-image: url("/img/mission.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+   /* background-color: #ccc; */
+  width: 100%;
+  height: 415px;
+  z-index: -1;
+  /* border-bottom: medium solid black;
+  background-image: url("/img/mission.png");
+  background-repeat: no-repeat; */
+   position: absolute;
+  top: 0;
+      right: 4%;
 }
 
-.mission-card {
-
-
-  border: 2px solid #000;
-  width: 100;
-  }
-.mission { position: relative;
-
-
+.sub-heading {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  padding-top: 50px;
 }
 .number-heading {
-  position: absolute;
-  font-size: 250px;
-  line-height: 250px;
-  top: 0;
-  left: 0;
-  color: #000;
-  z-index: 11111111;
+   position: absolute;
+   z-index: 0;
+
+    top: -15%;
+  left: 35%;
 }
 
+.sub-heading p{
+  text-align: center;
+  padding: 50px 80px;
+   line-height: 32px;   /* within paragraph */
+  /* between paragraphs */
+}
 </style>

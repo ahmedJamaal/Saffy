@@ -26,7 +26,7 @@
         :to="item.link"
         router
         exact
-        class="mx-2"
+        class="mx-2 nav-links"
         color="primary"
         small
         >
@@ -39,7 +39,7 @@
 
 
 <script>
-import logo from '~/components/layout/VuetifyLogo.vue'
+import logo from '~/components/layout/logo.vue'
 export default {
   components:{
     logo
@@ -51,10 +51,12 @@ export default {
     flat: true,
    items: [
       {name:"Home", link:"/"},
+      {name:"The Mission", link:"/Mission"},
+      {name:"The Inspiration", link:"/Inspiration"},
+      {name:"Saffy Technology", link:"/Saffy-Technology"},
       {name:"Our story", link:"/ourStory"},
-      {name:"Saffy technology", link:"/saffy-technology"},
-      {name:"Products", link:"/products"},
-      {name:"Contact Us", link:"/contact-us"},
+      {name:"News", link:"/News"},
+      {name:"Contact", link:"/Contact-US"},
     ],
   }),
   methods: {
@@ -87,5 +89,9 @@ export default {
 .expand {
   height: 80px !important;
   padding-top: 10px;
+}
+.nav-links {
+  text-decoration: none;
+      font-size: 0.7rem !important;
 }
 </style>

@@ -1,13 +1,14 @@
 <template>
  <div>
     <Cover/>
-    <Mission/>
-    <Awards class="py-100"/>
-    <!--
-    <Technology/>
-    <Partners/>
-        <Inspiration/>
-     -->
+   <Mission />
+    <Inspiration />
+    <Technology />
+    <AwardPartener />
+    <Partners />
+    <Awards />
+
+
 
  </div>
 </template>
@@ -16,20 +17,22 @@
 import Cover from '~/components/home/cover.vue'
 import Mission from '~/components/home/mission.vue'
 import Awards from '~/components/home/awards.vue'
-/*import Inspiration from '~/components/home/inspiration.vue'
+import Inspiration from '~/components/home/inspiration.vue'
 import Partners from '~/components/home/partners.vue'
-import Technology from '~/components/home/technology.vue'*/
+import Technology from '~/components/home/technology.vue';
+import AwardPartener from '~/components/home/award_partener.vue';
+
 export default {
   name: 'IndexPage',
   layout:"default",
   components:{
     Cover,
     Mission,
-    Awards
-    /*,
+    Awards,
     Inspiration,
     Partners,
-    Technology*/
+    Technology,
+    AwardPartener
   }
 }
 </script>

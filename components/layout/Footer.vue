@@ -1,61 +1,70 @@
 <template>
-  <v-footer padless>
-    <v-card flat tile class="primary white--text text-center">
-
-
-      <v-card-text class="white--text pt-3">
-        To learn more about us
-      </v-card-text>
-  <v-card-text>
+  <v-footer padless class="footer py-3">
+    <div class="d-flex flex-column align-center justify-center footer">
+      <div class="py-2 text-center">
+        <h6>To learn more about us</h6>
+      </div>
+      <div class="footer-nav">
         <v-btn
-          v-for="(icon, i) in icons"
-          :key="i"
-          class="mx-4 "
-          :href="icon.link"
-          target="_blank"
-          x-small
-
+          v-for="link in links"
+          :key="link.text"
+          text
+          class="my-2 nav-links"
         >
-            {{ icon.text }}
-
+          {{ link.text }}
         </v-btn>
-      </v-card-text>
-      <v-divider />
-
-      <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Saffy Water</strong>
-      </v-card-text>
-    </v-card>
+      </div>
+      <div class="py-2 text-center cover-footer">
+        <v-img
+          src="/img/bg-footer.png"
+          max-height="100"
+          class="footer-img"
+          max-width="100"
+        ></v-img>
+      </div>
+    </div>
   </v-footer>
 </template>
-
 <script>
 export default {
   data: () => ({
-    icons: [
+    links: [
       {
-        text: 'Contact us',
-        link: '#'
+        text: "Who we are",
+        link: "#",
       },
       {
-        text: 'Our products',
-        link: '#'
+        text: "Saffy technology",
+        link: "#",
       },
       {
-        text: 'Saffy technology',
-        link: '#'
+        text: "Our products",
+        link: "#",
       },
       {
-        text: 'Who we are',
-        link: '#'
-      }
-    ]
-  })
-}
+        text: "Contact us",
+        link: "#",
+      },
+      {
+        text: "Legal",
+        link: "#",
+      },
+    ],
+  }),
+};
 </script>
 
 <style scoped>
-.v-card {
+.footer {
   width: 100%;
+  height: 100%;
+}
+.footer .nav-links ,h6 {
+  font-size: var(--nav-font-size);
+  color: var(--nav-color);
+}
+
+.footer .cover-footer .footer-img {
+  text-align: center;
 }
 </style>

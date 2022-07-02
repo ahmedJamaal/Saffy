@@ -1,0 +1,30 @@
+<svg width="100.00000000000001" height="100.00000000000001" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient gradientTransform="matrix(0.004924996290355921,-0.4559174180030823,0.48279446363449097,0.004650822374969721,-514.6441040039062,488.1233825683594)" y2="1159.6104" x2="1047.2471" y1="1159.6104" x1="898.3535" gradientUnits="userSpaceOnUse" id="svg_25">
+   <stop stop-color="#F5F8E2" offset="0"/>
+   <stop stop-color="#F4C0D7" offset="0.2205"/>
+   <stop stop-color="#E0B9D4" offset="0.3082"/>
+   <stop stop-color="#BEAECF" offset="0.4792"/>
+   <stop stop-color="#BAB1D0" offset="0.5041"/>
+   <stop stop-color="#9CC1D5" offset="0.6961"/>
+   <stop stop-color="#8AC9D8" offset="0.8586"/>
+   <stop stop-color="#83CCD9" offset="0.971"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g transform="rotate(118 50 50)" stroke="null">
+   <g stroke="null" id="svg_27"/>
+   <g stroke="null" id="svg_26"/>
+   <g stroke="null" id="svg_22">
+    <g stroke="null" id="svg_24">
+     <path stroke="null" d="m50.3638,16.05834c-19.85063,-0.19105 -36.10457,14.84889 -36.30736,33.59626c-0.20086,18.74464 15.72812,34.09645 35.57875,34.28705c19.8516,0.1915 36.10795,-14.85208 36.30833,-33.59763c0.20328,-18.74601 -15.7286,-34.09691 -35.57972,-34.28568l0,0z" fill="url(#svg_25)"/>
+    </g>
+    <g stroke="null" id="svg_23">
+     <path stroke="null" d="m40.34481,27.36258c-1.52965,5.03565 1.5562,10.28972 6.88679,11.73193c5.33252,1.4454 10.89438,-1.46683 12.42451,-6.5034c1.5282,-5.03429 -1.55475,-10.28698 -6.88679,-11.73101c-5.33203,-1.44449 -10.89728,1.46774 -12.42451,6.50249l0,0z" fill="#FFFFFF"/>
+    </g>
+   </g>
+   <g stroke="null" id="svg_21"/>
+  </g>
+ </g>
+</svg>

@@ -1,11 +1,11 @@
 <template>
   <div class="logo">
+  <h4>Saffy</h4>
     <img
     class="vuetify-logo"
     alt="Vuetify Logo"
     src="/logo.svg"
   >
-  <h6>Saffy</h6>
   </div>
 </template>
 
@@ -14,16 +14,17 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+      padding-left: 40px;
 
 }
-.logo h6 {
+.logo h4 {
   color: black;
+  font-size: 14px;
 
 }
 .vuetify-logo {
-  height: 120px;
-  width: 120px;
-  color: brown;
+  height: 100%;
+     width: 55%;
  /* transform: rotateY(560deg);
   animation: turn 3.5s ease-out forwards 1s;
 */

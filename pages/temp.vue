@@ -1,5 +1,5 @@
 <template>
-  <v-row class="py-100">
+  <v-row class="py-16">
     <h1>Absolute positioning</h1>
 
 <p>I am a basic block level element. My adjacent block level elements sit on new lines below me.</p>

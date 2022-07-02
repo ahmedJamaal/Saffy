@@ -14,7 +14,7 @@ export default {
   },
   head: {
     titleTemplate: '%s - ',
-    title: 'saffyWater-landingPage',
+    title: 'Saffy Water',
     htmlAttrs: {
       lang: 'en'
     },

@@ -1,5 +1,5 @@
 /* Global color value*/
-/*@import url("variables.scss");
+/* @import url("variables.scss"); */
 /* https://stackoverflow.com/questions/15649244/responsive-font-size-in-css*/
 
 @font-face {
@@ -26,6 +26,7 @@
   --nav-heigh:  200px;
   --nav-font-size:  9px;
   --nav-color:#414196;
+  --num-color:#E5E5FF;
 
 
   /**/
@@ -35,14 +36,42 @@
 *{
   box-sizing: border-box;
 }
+body{
+  font-size: 16px;
+}
 h1 , h3{
   color: var(--main-color);
-  font-family: "Garamond";
+  font-family: "EBGaramond";
 }
 h1{
-  font-size: 32px;
+  font-size: 3.75rem;
+ /*line-height: 250px;*/
+}
+h2{
+  font-size: 3.75rem;
+ /*line-height: 250px;*/
 }
 h3{
-  font-size: 18px;
+  font-size: 2rem;
+  text-transform: capitalize;
 
+}
+p{
+  font-size: 1.125rem;
+  color: var(--main-color);
+
+}
+.number-heading {
+  font-size: 250px;
+  line-height: 250px;
+  font-family: "Garamond";
+  color: var(--num-color);
+}
+
+.py-100{
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+.pb-100{
+  padding-bottom: 100px !important;
 }

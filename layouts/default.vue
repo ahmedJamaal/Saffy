@@ -1,9 +1,12 @@
 <template>
-  <v-app >
+  <v-app app >
     <Navigation />
     <v-main class="pt-100">
 
+        <v-container fluid>
         <nuxt />
+
+    </v-container>
     </v-main>
 
     <Footer />
@@ -22,17 +25,8 @@ export default {
   },
   data: () => ({
     fab: null,
+    app:true,
   }),
 };
 </script>
 
-<style scoped>
-/*
-.v-main {
-  background-image: url("~@/assets/img/bgMain.png");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}*/
-
-</style>
