@@ -62,7 +62,7 @@ export default {
    position: absolute;
    z-index: 0;
 
-    top: -15%;
+    top: 0;
   left: 35%;
 }
 

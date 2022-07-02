@@ -62,7 +62,7 @@ export default {
 .number-heading {
   position: absolute;
   z-index: 0;
-  top: 0;
+  top: 4%;
       left: 55%;
 }
 

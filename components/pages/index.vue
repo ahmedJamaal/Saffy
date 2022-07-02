@@ -4,8 +4,7 @@
    <Mission />
     <Inspiration />
     <Technology />
-    <Story />
-    <AwardPartner />
+    <AwardPartener />
     <Partners />
     <Awards />
 
@@ -21,8 +20,7 @@ import Awards from '~/components/home/awards.vue'
 import Inspiration from '~/components/home/inspiration.vue'
 import Partners from '~/components/home/partners.vue'
 import Technology from '~/components/home/technology.vue';
-import AwardPartner from '~/components/home/award_partener.vue';
-import Story from '~/components/home/story.vue';
+import AwardPartener from '~/components/home/award_partener.vue';
 
 export default {
   name: 'IndexPage',
@@ -34,8 +32,7 @@ export default {
     Inspiration,
     Partners,
     Technology,
-    AwardPartner,
-    Story
+    AwardPartener
   }
 }
 </script>
