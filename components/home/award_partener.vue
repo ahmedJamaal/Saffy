@@ -12,12 +12,11 @@
       <v-col cols="5">
         <div class="award_partner-contenet">
              <p class="ml-16 px-6">They approve our technology and collaborate with us</p>
-        <v-img
+        <img
           class="award_partner-img"
-          src="/img/award_partener.png"
-          max-height="200"
-          max-width="200"
-        ></v-img>
+          :src="this.$config.baseUrl+'/img/award_partener.png'"
+
+        >
         </div>
       </v-col>
     </v-row>
@@ -26,6 +25,11 @@
 <script>
 export default {
   name: "TechnolgoySection",
+  data(){
+  return {
+    ///
+  }
+},
 };
 </script>
 <style scoped>
@@ -37,12 +41,15 @@ export default {
 display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 
 }
 .award_partner .award_partner-contenet .award_partner-img {
 
     margin: -50px 50px 0 0;
 }
-
+.award_partner img {
+  max-height:200px;
+          max-width:200px;
+}
 </style>

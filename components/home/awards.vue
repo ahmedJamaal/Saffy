@@ -7,16 +7,16 @@
   </v-row>
     <v-row justify="center" align="center">
     <v-col cols="2">
-      <v-img  src="/img/other/MIT.png"></v-img>
+      <img  :src='this.$config.baseUrl +"/img/other/MIT.png"'>
     </v-col>
     <v-col cols="2">
-      <v-img src="/img/other/la french tech.jpg"></v-img>
+      <img :src='this.$config.baseUrl +"/img/other/la french tech.jpg"'>
     </v-col>
     <v-col cols="2">
-      <v-img  src="/img/other/energy globe.jpg"></v-img>
+      <img  :src='this.$config.baseUrl +"/img/other/energy globe.jpg"'>
     </v-col>
     <v-col cols="2">
-      <v-img src="/img/other/Startup power.png"></v-img>
+      <img :src='this.$config.baseUrl +"/img/other/Startup power.png"'>
     </v-col>
   </v-row>
 </div>
@@ -24,8 +24,19 @@
 
 <script>
 export default {
-  name: 'Awards'
+  name: 'Awards',
+  data(){
+  return {
+    ////
+  }
+},
 }
 </script>
+<style scoped>
+.awards img {
+  width: 100%;
+  height: 100%;
+}
+</style>
 
 

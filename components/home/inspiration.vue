@@ -39,7 +39,7 @@ export default {
   height: 100%;
 }
 .overlays {
-  background-image: url("/img/inspire.svg");
+  background-image: url("/Saffy/img/inspire.svg");
   background-repeat: no-repeat;
   background-position: center center;
   /* background-color: #ccc; */

@@ -36,6 +36,14 @@ export default {
     Technology,
     AwardPartner,
     Story
+  },
+data(){
+  return {
+
+  }
+},
+  mounted(){
+    console.log(this.baseUrl);
   }
 }
 </script>

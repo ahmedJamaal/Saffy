@@ -7,16 +7,17 @@
   </v-row>
     <v-row justify="center" align="center">
     <v-col cols="2">
-      <v-img  src="/img/other/le village.jpg"></v-img>
+      <img  :src='this.$config.baseUrl +"/img/other/le village.jpg"'>
     </v-col>
     <v-col cols="2">
-      <v-img src="/img/other/Conscious venture lab.png"></v-img>
+      <img :src='this.$config.baseUrl +"/img/other/Conscious venture lab.png"'>
     </v-col>
     <v-col cols="2">
-      <v-img  src="/img/other/Design terminal.png"></v-img>
+      <img  :src='this.$config.baseUrl +"/img/other/Design terminal.png"'>
     </v-col>
     <v-col cols="2">
-      <v-img src="/img/other/the camp.jpg"></v-img>
+      <img :src='this.$config.baseUrl +"/img/other/the camp.jpg"'>
+
     </v-col>
   </v-row>
 </div>
@@ -24,6 +25,17 @@
 
 <script>
 export default {
-  name: 'partner'
+  name: 'partner',
+  data(){
+  return {
+
+  }
+},
 }
 </script>
+<style scoped>
+.partner img {
+  width: 100%;
+  height: 100%;
+}
+</style>

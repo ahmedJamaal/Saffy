@@ -21,12 +21,12 @@
         </p>
       </v-col>
       <v-col cols="2" >
-        <v-img class="mr-auto" src="/img/technology-right.svg" max-height="150" max-width="150"></v-img>
+        <img class="mr-auto img150" :src='this.$config.baseUrl +"/img/technology-right.svg"'>
       </v-col>
     </v-row>
     <v-row justify="center" align="center" class="py-0">
       <v-col cols="2">
-        <v-img src="/img/technology-left.svg" max-height="150" max-width="150" class="ml-auto" ></v-img>
+        <img :src='this.$config.baseUrl +"/img/technology-left.svg"' class="ml-auto img150" >
       </v-col>
       <v-col cols="3">
         <p>
@@ -37,18 +37,36 @@
     </v-row>
 
     <v-row justify="center" align="center" class="py-0">
-      <v-img width="100%" height="200px" src="/img/saffy_products.svg"></v-img>
+      <img class="technology-cover" :src='this.$config.baseUrl +"/img/saffy_products.svg"'>
     </v-row>
   </section>
 </template>
 <script>
 export default {
   name: "TechnolgoySection",
+  data(){
+  return {
+    ///
+  }
+},
 };
 </script>
 <style scoped>
 .number-heading {
  text-align: right;
 
+}
+.technology .technology-cover{
+  width:100%;
+   height:100%;
+}
+
+.technology .img100 {
+  max-height:100px;
+          max-width:100px;
+}
+.technology .img150 {
+  max-height:150px;
+          max-width:150px;
 }
 </style>

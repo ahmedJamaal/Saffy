@@ -33,7 +33,7 @@ export default {
 </script>
 <style>
 .cover {
-  background: #fff url(/img/bg-main.svg) no-repeat center bottom;
+  background: #fff url(/Saffy/img/bg-main.svg) no-repeat center bottom;
   /* background-size: cover; */
   /* background-attachment: fixed; */
   width: 100%;

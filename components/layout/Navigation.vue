@@ -100,5 +100,6 @@ export default {
 .nav-links {
   text-decoration: none;
       font-size: 0.7rem !important;
+        color: var(--nav-color);
 }
 </style>

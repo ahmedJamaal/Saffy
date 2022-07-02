@@ -15,12 +15,11 @@
         </v-btn>
       </div>
       <div class="py-2 text-center cover-footer">
-        <v-img
-          src="/img/bg-footer.png"
-          max-height="100"
+        <img
+          :src="this.$config.baseUrl+'/img/bg-footer.png'"
+
           class="footer-img"
-          max-width="100"
-        ></v-img>
+        >
       </div>
     </div>
   </v-footer>
@@ -50,6 +49,9 @@ export default {
         link: "#",
       },
     ],
+
+
+
   }),
 };
 </script>
@@ -66,5 +68,8 @@ export default {
 
 .footer .cover-footer .footer-img {
   text-align: center;
+    max-height:100px;
+          max-width:100px;
+
 }
 </style>

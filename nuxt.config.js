@@ -5,6 +5,9 @@ const routerBase = process.env.DEPLOY_ENV ===  'GH_PAGES' ? {
 }:{}
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  publicRuntimeConfig: {
+    baseUrl: process.env.NODE_ENV === 'dev' ? '/Saffy' : '/Saffy'
+  },
   mode:'static',
   ///ssr:true,
   router:{
@@ -25,7 +28,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/Saffy/favicon.ico' }
     ]
   },
 
@@ -72,6 +75,8 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: [ /**'~/assets/variables.scss'*/],
+    treeShake: true,
+    defaultAssets: false,
     theme: {
       dark: false,
       themes: {

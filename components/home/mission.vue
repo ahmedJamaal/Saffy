@@ -37,7 +37,7 @@ export default {
   height: 100%;
 }
 .overlays {
-  background-image: url("/img/mission.png");
+  background-image: url("/Saffy/img/mission.png");
   background-repeat: no-repeat;
   background-position: center center;
    /* background-color: #ccc; */
