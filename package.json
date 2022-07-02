@@ -6,7 +6,7 @@
     "dev": "nuxt",
     "dev-test": "env NODE_ENV=production nuxt",
     "build-dev": "env NODE_ENV=dev nuxt build",
-    "build-prod": "env NODE_ENV=production nuxt build",
+    "build-prod": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "deploy": "gh-pages -d dist"
