@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{343:function(e,t,n){"use strict";n.r(t);var r={name:"InspirePage"},c=n(14),component=Object(c.a)(r,(function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("v-row",[n("v-col",{staticClass:"text-center"},[n("h1",[e._v("Our Story")])])],1)}),[],!1,null,null,null);t.default=component.exports}}]);
