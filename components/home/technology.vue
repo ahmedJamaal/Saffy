@@ -5,7 +5,7 @@
         <div class="number-heading">3</div>
       </v-col>
       <v-col cols="3">
-        <h3>The Saffy technology</h3>
+        <h3>SaffyWater Technology</h3>
         <p class="mt-5">
           To purify water, Saffy conceived a bio membrane consisting of 3 major layers.
           Each layer takes care of a certain type of pollutant

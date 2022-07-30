@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-  <h4>Saffy</h4>
+  <h4>SaffyWater</h4>
     <img
     class="Saffy-logo"
     alt="Saffy Logo"

@@ -5,7 +5,7 @@
         <v-col cols="12">
           <div class="cover-overlay"></div>
           <div class="text-content">
-            <h1 class="py-4">We are Saffy</h1>
+            <h1 class="py-4">SaffyWater</h1>
           <h3 class="py-2">The world first biological solution for water purification.</h3>
 
           </div>
@@ -22,7 +22,7 @@ export default {
     return {
       slides: [
         {
-          heading: "We are Saffy",
+          heading: "SaffyWater",
           text: "The world first biological solution for water purification",
           img: "/img/slides/bg-1.svg",
         },

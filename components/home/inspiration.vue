@@ -1,8 +1,8 @@
 <template>
   <section class="inspiration p-12 py-100">
     <v-row justify="center" align="end" class="py-0">
-      <v-col cols="2">
-        <h3>The inspiration</h3>
+      <v-col cols="3">
+        <h3>SaffyWater inspiration</h3>
       </v-col>
     </v-row>
     <div class="number-heading">2</div>
@@ -10,11 +10,11 @@
       <v-col cols="6">
         <div class="sub-heading">
           <p>
-            We looked at Nature and created Saffy a solution for water
-            purification
+            Inspired by Nature to create the most efficient and sustainable water purification technology
           </p>
-          <p>Sustainable & biodegradable</p>
-          <p>Gets ride of pathogens, heavy metals & other pollutants</p>
+          <p>SaffyWater technology is the only technology that fully clean without demineralize </p>
+          <p>SaffyWater technology is the best and most efficient on Heavy metals</p>
+          <p>Gets rid of pathogens, heavy metals & other pollutants</p>
           <p>Eliminates both liquid industrial & agricultural waste</p>
           <p>Scalable from a personal use model to a community model</p>
 

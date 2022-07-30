@@ -27,6 +27,11 @@ import Story from '~/components/home/story.vue';
 export default {
   name: 'IndexPage',
   layout:"default",
+        head() {
+    return {
+      titleTemplate: `%s - Home`,
+    };
+  },
   components:{
     Cover,
     Mission,
