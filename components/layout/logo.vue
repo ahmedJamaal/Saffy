@@ -4,7 +4,7 @@
     <img
     class="Saffy-logo"
     alt="Saffy Logo"
-    :src="this.$config.baseUrl+'/logo.svg'"
+    :src="this.$config.baseUrl+'logo.svg'"
   >
   </div>
 </template>

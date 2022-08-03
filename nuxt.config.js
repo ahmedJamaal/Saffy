@@ -8,10 +8,11 @@ export default {
   publicRuntimeConfig: {
     baseUrl: process.env.NODE_ENV === 'dev' ? '/Saffy' : '/'
   },
-  ssr: false,
+ // ssr: false,
+  mode:'static',
   router:{
     //for github pages
-    base:'/Saffy/'
+    base:'/'
   },
   head: {
     titleTemplate: '%s - ',
@@ -26,7 +27,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/Saffy/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
