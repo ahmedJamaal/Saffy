@@ -8,11 +8,10 @@ export default {
   publicRuntimeConfig: {
     baseUrl: process.env.NODE_ENV === 'dev' ? '/Saffy' : '/'
   },
-  ssr:false,
+  ssr: false,
   router:{
     //for github pages
-    base:'/'
-    ///base:'/'
+    base:'/Saffy/'
   },
   head: {
     titleTemplate: '%s - ',
