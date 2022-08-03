@@ -6,18 +6,18 @@ const routerBase = process.env.DEPLOY_ENV ===  'GH_PAGES' ? {
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   publicRuntimeConfig: {
-    baseUrl: process.env.NODE_ENV === 'dev' ? '/Saffy' : '/Saffy'
+    baseUrl: process.env.NODE_ENV === 'dev' ? '/Saffy' : '/'
   },
-  mode:'static',
-  ///ssr:true,
+  //mode:'static',
+  ssr:false,
   router:{
     //for github pages
-    base:'/Saffy/'
+    base:'/'
     ///base:'/'
   },
   head: {
     titleTemplate: '%s - ',
-    title: 'Saffy Water',
+    title: 'SaffyWater',
     htmlAttrs: {
       lang: 'en'
     },
