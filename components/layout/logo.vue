@@ -25,7 +25,7 @@ export default {
   padding-left: 40px;
 }
 .logo h4 {
-  color: black;
+  color: #212282;
   font-size: 14px;
   font-family: "Comfortaa";
 }

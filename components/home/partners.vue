@@ -7,16 +7,16 @@
   </v-row>
     <v-row justify="center" align="center">
     <v-col cols="2">
-      <img  :src='this.$config.baseUrl +"/img/other/le village.jpg"'>
+      <img  :src='this.$config.baseUrl +"img/other/le village.jpg"'>
     </v-col>
     <v-col cols="2">
-      <img :src='this.$config.baseUrl +"/img/other/Conscious venture lab.png"'>
+      <img :src='this.$config.baseUrl +"img/other/Conscious venture lab.png"'>
     </v-col>
     <v-col cols="2">
-      <img  :src='this.$config.baseUrl +"/img/other/Design terminal.png"'>
+      <img  :src='this.$config.baseUrl +"img/other/Design terminal.png"'>
     </v-col>
     <v-col cols="2">
-      <img :src='this.$config.baseUrl +"/img/other/the camp.jpg"'>
+      <img :src='this.$config.baseUrl +"img/other/the camp.jpg"'>
 
     </v-col>
   </v-row>

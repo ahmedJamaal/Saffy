@@ -14,7 +14,7 @@
              <p class="ml-16 px-6">They approve our technology and collaborate with us</p>
         <img
           class="award_partner-img"
-          :src="this.$config.baseUrl+'/img/award_partener.png'"
+          :src="this.$config.baseUrl+'img/award_partener.png'"
 
         >
         </div>

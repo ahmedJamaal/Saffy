@@ -16,7 +16,7 @@
       </div>
       <div class="py-2 text-center cover-footer">
         <img
-          :src="this.$config.baseUrl+'/img/bg-footer.png'"
+          :src="this.$config.baseUrl+'img/bg-footer.png'"
 
           class="footer-img"
         >

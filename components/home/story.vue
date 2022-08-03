@@ -4,7 +4,7 @@
       <v-col cols="2">
         <img
           class="story-img img150"
-          :src='this.$config.baseUrl +"/img/story-top.svg"'
+          :src='this.$config.baseUrl +"img/story-top.svg"'
         >
       </v-col>
     </v-row>
