@@ -8,7 +8,6 @@ export default {
   publicRuntimeConfig: {
     baseUrl: process.env.NODE_ENV === 'dev' ? '/Saffy' : '/'
   },
-  //mode:'static',
   ssr:false,
   router:{
     //for github pages
