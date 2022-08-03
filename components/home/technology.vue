@@ -21,12 +21,12 @@
         </p>
       </v-col>
       <v-col cols="2" >
-        <img class="mr-auto img150" :src='this.$config.baseUrl +"/img/technology-right.svg"'>
+        <img class="mr-auto img150" :src='this.$config.baseUrl +"img/technology-right.svg"'>
       </v-col>
     </v-row>
     <v-row justify="center" align="center" class="py-0">
       <v-col cols="2">
-        <img :src='this.$config.baseUrl +"/img/technology-left.svg"' class="ml-auto img150" >
+        <img :src='this.$config.baseUrl +"img/technology-left.svg"' class="ml-auto img150" >
       </v-col>
       <v-col cols="3">
         <p>
@@ -37,7 +37,7 @@
     </v-row>
 
     <v-row justify="center" align="center" class="py-0">
-      <img class="technology-cover" :src='this.$config.baseUrl +"/img/saffy_products.svg"'>
+      <img class="technology-cover" :src='this.$config.baseUrl +"img/saffy_products.svg"'>
     </v-row>
   </section>
 </template>

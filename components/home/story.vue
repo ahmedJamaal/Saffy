@@ -15,7 +15,7 @@
       <v-col cols="1">
        <img
           class="story-img img100"
-          :src='this.$config.baseUrl +"/img/story-mid.png"'
+          :src='this.$config.baseUrl +"img/story-mid.png"'
 
         >
       </v-col>
@@ -24,7 +24,7 @@
       <v-col cols="1">
         <img
           class="story-img img100"
-          :src='this.$config.baseUrl +"/img/story-head.png"'
+          :src='this.$config.baseUrl +"img/story-head.png"'
 
         >
       </v-col>
@@ -45,7 +45,7 @@
       <v-col cols="1">
                <img
           class="story-img img100"
-          :src='this.$config.baseUrl +"/img/story-bottom.png"'
+          :src='this.$config.baseUrl +"img/story-bottom.png"'
 
         >
 

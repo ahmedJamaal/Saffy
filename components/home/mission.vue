@@ -40,7 +40,7 @@ export default {
       margin-left: 17%;
 }
 .overlays {
-  background-image: url("/Saffy/img/mission.svg");
+  background-image: url("/img/mission.svg");
   background-repeat: no-repeat;
   background-position: center center;
    /* background-color: #ccc; */
