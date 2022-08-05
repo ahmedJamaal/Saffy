@@ -45,7 +45,7 @@ export default {
   background-position: center center;
    /* background-color: #ccc; */
   width: 100%;
-  height: 350px;
+  height: 300px;
   z-index: -1;
   /* border-bottom: medium solid black;
   background-image: url("/img/mission.png");
@@ -66,12 +66,12 @@ export default {
    z-index: 0;
 
         top: 6%;
-    left: 34%;
+        left: 37%;
 }
 
 .sub-heading p{
   text-align: center;
-    padding: 35px 60px;
+   padding: 17px 35px;
    line-height: 25px;   /* within paragraph */
   /* between paragraphs */
 }

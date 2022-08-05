@@ -26,7 +26,7 @@
     </v-row>
     <v-row justify="center" align="center" class="py-0">
       <v-col cols="2">
-        <img :src='this.$config.baseUrl +"img/technology-left.svg"' class="ml-auto img150" >
+        <img :src='this.$config.baseUrl +"img/technology-left.svg"' class="ml-3 img150" >
       </v-col>
       <v-col cols="3">
         <p>

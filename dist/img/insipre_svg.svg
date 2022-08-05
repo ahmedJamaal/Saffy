@@ -1,0 +1,123 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+ <title>inspire2.svg</title>
+ <defs>
+  <linearGradient id="svg_5" x1="0.49491" y1="0.99997" x2="0.50511" y2="0.00003">
+   <stop offset="0" stop-color="#F5F8E2"/>
+   <stop offset="0.2205" stop-color="#F4C0D7"/>
+   <stop offset="0.3082" stop-color="#E0B9D4"/>
+   <stop offset="0.4792" stop-color="#BEAECF"/>
+   <stop offset="0.5041" stop-color="#BAB1D0"/>
+   <stop offset="0.6961" stop-color="#9CC1D5"/>
+   <stop offset="0.8586" stop-color="#8AC9D8"/>
+   <stop offset="0.971" stop-color="#83CCD9"/>
+  </linearGradient>
+  <linearGradient id="svg_12" x1="0.4949" y1="0.99998" x2="0.50511" y2="0.00003">
+   <stop offset="0" stop-color="#F5F8E2"/>
+   <stop offset="0.2205" stop-color="#F4C0D7"/>
+   <stop offset="0.3082" stop-color="#E0B9D4"/>
+   <stop offset="0.4792" stop-color="#BEAECF"/>
+   <stop offset="0.5041" stop-color="#BAB1D0"/>
+   <stop offset="0.6961" stop-color="#9CC1D5"/>
+   <stop offset="0.8586" stop-color="#8AC9D8"/>
+   <stop offset="0.971" stop-color="#83CCD9"/>
+  </linearGradient>
+  <linearGradient id="svg_19" x1="0.49491" y1="0.99998" x2="0.50511" y2="0.00003">
+   <stop offset="0" stop-color="#F5F8E2"/>
+   <stop offset="0.2205" stop-color="#F4C0D7"/>
+   <stop offset="0.3082" stop-color="#E0B9D4"/>
+   <stop offset="0.4792" stop-color="#BEAECF"/>
+   <stop offset="0.5041" stop-color="#BAB1D0"/>
+   <stop offset="0.6961" stop-color="#9CC1D5"/>
+   <stop offset="0.8586" stop-color="#8AC9D8"/>
+   <stop offset="0.971" stop-color="#83CCD9"/>
+  </linearGradient>
+  <linearGradient id="svg_26" x1="0.4949" y1="0.99998" x2="0.5051" y2="0.00003">
+   <stop offset="0" stop-color="#F5F8E2"/>
+   <stop offset="0.2205" stop-color="#F4C0D7"/>
+   <stop offset="0.3082" stop-color="#E0B9D4"/>
+   <stop offset="0.4792" stop-color="#BEAECF"/>
+   <stop offset="0.5041" stop-color="#BAB1D0"/>
+   <stop offset="0.6961" stop-color="#9CC1D5"/>
+   <stop offset="0.8586" stop-color="#8AC9D8"/>
+   <stop offset="0.971" stop-color="#83CCD9"/>
+  </linearGradient>
+  <linearGradient id="svg_33" x1="0.49491" y1="0.99998" x2="0.50511" y2="0.00003">
+   <stop offset="0" stop-color="#F5F8E2"/>
+   <stop offset="0.2205" stop-color="#F4C0D7"/>
+   <stop offset="0.3082" stop-color="#E0B9D4"/>
+   <stop offset="0.4792" stop-color="#BEAECF"/>
+   <stop offset="0.5041" stop-color="#BAB1D0"/>
+   <stop offset="0.6961" stop-color="#9CC1D5"/>
+   <stop offset="0.8586" stop-color="#8AC9D8"/>
+   <stop offset="0.971" stop-color="#83CCD9"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" transform="matrix(-0.361621 -0.812313 0.812215 -0.361665 294.072 673.979)" id="svg_36">
+   <g stroke="null" id="svg_7"/>
+   <g stroke="null" id="svg_6"/>
+   <g stroke="null" id="svg_2">
+    <g stroke="null" id="svg_4">
+     <path stroke="null" id="svg_37" fill="url(#svg_5)" d="m371.68473,265.36166c-25.13252,-0.25603 -45.71133,19.89975 -45.96809,45.02406c-0.25431,25.12064 19.91309,45.6944 45.04561,45.94982c25.13375,0.25664 45.71561,-19.90403 45.96931,-45.0259c0.25737,-25.12248 -19.9137,-45.69501 -45.04683,-45.94798l0,0z"/>
+    </g>
+    <g stroke="null" id="svg_3">
+     <path stroke="null" id="svg_38" fill="#FFFFFF" d="m358.99988,280.51103c-1.93666,6.74854 1.97028,13.78977 8.71923,15.72255c6.7514,1.93706 13.79318,-1.96578 15.73045,-8.71554c1.93482,-6.7467 -1.96845,-13.78611 -8.71923,-15.72133c-6.75079,-1.93584 -13.79685,1.967 -15.73045,8.71432l0,0z"/>
+    </g>
+   </g>
+   <g stroke="null" id="svg_1"/>
+  </g>
+  <g stroke="null" id="svg_39">
+   <g stroke="null" id="svg_14" transform="matrix(-0.88908 0 0 -0.889187 1055.5 815.846)"/>
+   <g stroke="null" id="svg_13" transform="matrix(-0.88908 0 0 -0.889187 1055.5 815.846)"/>
+   <g stroke="null" transform="matrix(-0.88908 0 0 -0.889187 506.795 358.885)" id="svg_9">
+    <g stroke="null" id="svg_11">
+     <path stroke="null" id="svg_40" fill="url(#svg_12)" d="m250.681,146.47019c-25.85945,-0.25603 -47.03347,19.89975 -47.29765,45.02406c-0.26166,25.12064 20.48904,45.6944 46.34849,45.94982c25.8607,0.25664 47.03787,-19.90403 47.29891,-45.0259c0.26481,-25.12248 -20.48967,-45.69501 -46.34975,-45.94798l0,0z"/>
+    </g>
+    <g stroke="null" id="svg_10">
+     <path stroke="null" id="svg_41" fill="#FFFFFF" d="m237.62925,161.61957c-1.99267,6.74854 2.02727,13.78977 8.97143,15.72255c6.94668,1.93706 14.19213,-1.96578 16.18543,-8.71554c1.99078,-6.7467 -2.02538,-13.78611 -8.97143,-15.72133c-6.94605,-1.93584 -14.1959,1.967 -16.18543,8.71432l0,0z"/>
+    </g>
+   </g>
+   <g stroke="null" id="svg_8" transform="matrix(-0.88908 0 0 -0.889187 1055.5 815.846)"/>
+  </g>
+  <g stroke="null" transform="matrix(0 -0.889187 0.88908 0 22.7054 97.8268)" id="svg_42">
+   <g stroke="null" id="svg_21"/>
+   <g stroke="null" id="svg_20"/>
+   <g stroke="null" id="svg_16">
+    <g stroke="null" id="svg_18">
+     <path stroke="null" id="svg_43" fill="url(#svg_19)" d="m58.40785,-10.90994c-22.73007,-0.25603 -41.34172,19.89975 -41.57392,45.02406c-0.23,25.12064 18.00956,45.6944 40.73963,45.94982c22.73117,0.25664 41.34559,-19.90403 41.57503,-45.0259c0.23276,-25.12248 -18.01011,-45.69501 -40.74073,-45.94798l0,0l-0.00001,0z"/>
+    </g>
+    <g stroke="null" id="svg_17">
+     <path stroke="null" id="svg_44" fill="#FFFFFF" d="m46.93557,4.23944c-1.75153,6.74854 1.78194,13.78977 7.88575,15.72255c6.10602,1.93706 12.47467,-1.96578 14.22675,-8.71554c1.74987,-6.7467 -1.78028,-13.78611 -7.88575,-15.72133c-6.10547,-1.93584 -12.47799,1.967 -14.22675,8.71432l0,0z"/>
+    </g>
+   </g>
+   <g stroke="null" id="svg_15"/>
+  </g>
+  <g stroke="null" transform="matrix(-0.484228 0.745735 -0.745645 -0.484286 999.671 89.609)" id="svg_45">
+   <g stroke="null" id="svg_28"/>
+   <g stroke="null" id="svg_27"/>
+   <g stroke="null" id="svg_23">
+    <g stroke="null" id="svg_25">
+     <path stroke="null" id="svg_46" fill="url(#svg_26)" d="m530.126,249.99893c-25.32783,-0.25603 -46.06657,19.89975 -46.32532,45.02406c-0.25628,25.12064 20.06784,45.6944 45.39567,45.94982c25.32907,0.25664 46.07088,-19.90403 46.32655,-45.0259c0.25937,-25.12248 -20.06845,-45.69501 -45.3969,-45.94798l0,0z"/>
+    </g>
+    <g stroke="null" id="svg_24">
+     <path stroke="null" id="svg_47" fill="#FFFFFF" d="m517.34256,265.14831c-1.95171,6.74854 1.98559,13.78977 8.78699,15.72255c6.80387,1.93706 13.90037,-1.96578 15.85269,-8.71554c1.94986,-6.7467 -1.98374,-13.78611 -8.78699,-15.72133c-6.80325,-1.93584 -13.90406,1.967 -15.85269,8.71432l0,0z"/>
+    </g>
+   </g>
+   <g stroke="null" id="svg_22"/>
+  </g>
+  <g stroke="null" id="svg_48">
+   <g stroke="null" transform="matrix(0 0.889187 -0.88908 0 256.591 -294.802)" id="svg_35"/>
+   <g stroke="null" transform="matrix(0 0.889187 -0.88908 0 256.591 -294.802)" id="svg_34"/>
+   <g stroke="null" transform="matrix(0 0.889187 -0.88908 0 270.147 -23.3801)" id="svg_30">
+    <g stroke="null" id="svg_32">
+     <path stroke="null" id="svg_49" fill="url(#svg_33)" d="m152.94982,66.63351c-25.12312,-0.25603 -45.69423,19.89975 -45.95089,45.02406c-0.25421,25.12064 19.90564,45.6944 45.02876,45.94982c25.12434,0.25664 45.69851,-19.90403 45.95211,-45.0259c0.25727,-25.12248 -19.90625,-45.69501 -45.02998,-45.94798l0,0z"/>
+    </g>
+    <g stroke="null" id="svg_31">
+     <path stroke="null" id="svg_50" fill="#FFFFFF" d="m140.26971,81.78289c-1.93593,6.74854 1.96954,13.78977 8.71597,15.72255c6.74887,1.93706 13.78802,-1.96578 15.72456,-8.71554c1.9341,-6.7467 -1.96771,-13.78611 -8.71597,-15.72133c-6.74826,-1.93584 -13.79168,1.967 -15.72456,8.71432l0,0z"/>
+    </g>
+   </g>
+   <g stroke="null" transform="matrix(0 0.889187 -0.88908 0 256.591 -294.802)" id="svg_29"/>
+  </g>
+ </g>
+</svg>

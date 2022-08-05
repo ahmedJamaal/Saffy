@@ -10,15 +10,15 @@
       <v-col cols="6">
         <div class="sub-heading">
           <p>
-            Inspired by Nature to create the most efficient and sustainable water purification technology
+             We looked at Nature and created Saffy a solution for water purification which is :
           </p>
-          <p>SaffyWater technology is the only technology that fully clean without demineralize </p>
-          <p>SaffyWater technology is the best and most efficient on Heavy metals</p>
+          <p>Sustainable & biodegradable</p>
           <p>Gets rid of pathogens, heavy metals & other pollutants</p>
           <p>Eliminates both liquid industrial & agricultural waste</p>
           <p>Scalable from a personal use model to a community model</p>
+          <p>Aesthetic</p>
 
-          <div class="overlays"></div>
+    <div class="overlays"></div>
         </div>
       </v-col>
     </v-row>
@@ -39,17 +39,19 @@ export default {
   height: 100%;
 }
 .overlays {
-  background-image: url("/img/inspire.svg");
+  background-image: url("/img/insipre_svg.svg");
   background-repeat: no-repeat;
   background-position: center center;
   /* background-color: #ccc; */
   width: 100%;
-  height: 500px;
+ height: 400px;
   z-index: -1;
   position: absolute;
-  top: 0;
+      opacity: 0.6;
+ top: 1%;
       right: 2%;
-    transform: rotate(-4deg);
+   transform: rotate(-3deg);
+
 }
 
 .sub-heading {
@@ -62,14 +64,13 @@ export default {
 .number-heading {
   position: absolute;
   z-index: 0;
-  top: 4%;
-      left: 55%;
+top: 10%;
+    left: 54%;
 }
 
 .sub-heading p {
   margin: 0;
   text-align: center;
-  padding: 20px 140px;
-  line-height: 32px;
+      padding: 15px 210px;
 }
 </style>
