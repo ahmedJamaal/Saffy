@@ -1,0 +1,70 @@
+
+
+
+
+
+
+
+
+
+// Extra small	xs	Small to large phone	< 600px
+// Small	sm	Small to medium tablet	600px > < 960px
+// Medium	md	Large tablet to laptop	960px > < 1264px*
+// Large	lg	Desktop	1264px > < 1904px*
+// Extra large	xl	4k and ultra-wide	> 1904px*
+
+//   --xs:  600px;
+//   --sm:  960px;
+//   --md: 1264px;
+//   --lg: 1904px;
+//   --screen-xs: 600px;
+//   --screen-sm: 960px;
+//   --screen-md: 1264px;
+//   --screen-lg: 1904px;
+
+
+//   /* section and cover sunHeader*/
+//   h1 {font-size: 3.75rem;}
+//   h3 , h2{ font-size: 1.375rem; }
+//   p{ font-size: 1.125rem; }
+//   .number-heading { font-size: 15.625rem;}
+
+
+
+//   /* small */
+// @media all and (min-width:var(--screen-sm)){
+//   .v-main{
+//     background: #212282;
+
+//   }
+//   h1 {font-size: 3.75rem;}
+//   h3 , h2{ font-size: 1.375rem; }
+//   p{ font-size: 1.125rem; }
+//   .number-heading { font-size: 15.625rem;}
+// }
+// /* Medium */
+// @media all and (min-width:var(--screen-md)){
+//   .v-main{
+//     background: orange;
+
+//   }
+//   h1 {font-size: 3.75rem;}
+//   h3 , h2{ font-size: 1.375rem; }
+//   p{ font-size: 1.125rem; }
+//   .number-heading { font-size: 15.625rem;}
+
+// }
+// /* Large */
+// @media all and (min-width:var(--screen-lg)){
+//   .v-main{
+//     background: green;
+
+//   }
+
+//   h1 {font-size: 3.75rem;}
+//   h3 , h2{ font-size: 1.375rem; }
+//   p{ font-size: 1.125rem; }
+//   .number-heading { font-size: 15.625rem;}
+// }
+// /* Extra large */
+

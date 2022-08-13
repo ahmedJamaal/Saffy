@@ -33,13 +33,14 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    "~assets/style/style.css",
+    // "~assets/style/style.css",
     "~assets/style/variables.scss"
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     //    { src: "~/plugins/i18n.js" },
+    { src: '~plugins//slide-menu', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

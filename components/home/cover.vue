@@ -1,16 +1,17 @@
 <template>
- <v-row>
-        <v-col cols="12">
-          <div class="cover">
+ <section class="cover">
+
             <div class="cover-overlay"></div>
           <div class="text-content">
             <h1>SaffyWater</h1>
-          <h3 class="pt-3">The world first biological solution for water purification.</h3>
+          <h2 class="pt-3">
+            The world first biological solution for water purification.
+            </h2>
 
           </div>
-          </div>
-        </v-col>
-      </v-row>
+
+     </section>
+
 
 </template>
 

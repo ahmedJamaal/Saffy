@@ -1,5 +1,5 @@
 <template>
-  <div class="story py-100" >
+  <section class="story py-xs-10 py-sm-12 py-md-14 py-lg-15 py-xl-16" >
     <v-row justify="center" align="center"  no-gutters>
       <v-col cols="2">
         <img
@@ -29,7 +29,7 @@
         >
       </v-col>
       <v-col cols="3">
-        <h3>Our Story</h3>
+        <h3 class="section-header">Our Story</h3>
       </v-col>
     </v-row>
     <v-row  justify="center" align="center">
@@ -53,7 +53,7 @@
        </v-row>
 
 
-  </div>
+  </section>
 </template>
 <script>
 export default {

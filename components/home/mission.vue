@@ -1,9 +1,9 @@
 <template>
-  <div class="mission p-12 pb-100">
+  <section class="mission py-md-16">
     <v-row justify="center" align="end" class="py-0">
-      <v-col cols="2">
-        <h3>Mission</h3>
-      </v-col>
+
+        <h3 class="section-header">Mission</h3>
+
     </v-row>
           <div class="number-heading">1</div>
     <v-row justify="center" align="center">
@@ -21,7 +21,7 @@
         </div>
       </v-col>
     </v-row>
-  </div>
+  </section>
 </template>
 
 <script>

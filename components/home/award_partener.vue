@@ -1,11 +1,11 @@
 <template>
-  <div class="award_partner py-100" >
+  <section class="award_partner py-xs-10 py-sm-12 py-md-14 py-lg-15 py-xl-16" >
     <v-row justify="center" align="center" class="py-0">
       <v-col cols="1">
         <div class="number-heading">5</div>
       </v-col>
       <v-col cols="3">
-        <h3>Awards & partners</h3>
+        <h3 class="section-header">Awards & partners</h3>
       </v-col>
     </v-row>
     <v-row justify="center" align="start" no-gutters >
@@ -20,7 +20,7 @@
         </div>
       </v-col>
     </v-row>
-  </div>
+  </section>
 </template>
 <script>
 export default {

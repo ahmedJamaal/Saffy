@@ -1,11 +1,11 @@
 <template>
-  <section class="technology py-100">
+  <section class="technology py-xs-10 py-sm-12 py-md-14 py-lg-15 py-xl-16">
     <v-row justify="center" align="end" class="py-0">
         <v-col cols="2">
         <div class="number-heading">3</div>
       </v-col>
       <v-col cols="3">
-        <h3>SaffyWater Technology</h3>
+        <h3 class="section-header">SaffyWater Technology</h3>
         <p class="mt-5">
           To purify water, Saffy conceived a bio membrane consisting of 3 major layers.
           Each layer takes care of a certain type of pollutant

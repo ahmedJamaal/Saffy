@@ -1,8 +1,8 @@
 <template>
-  <section class="inspiration p-12 py-100">
+  <section class="inspiration p-12 py-xs-10 py-sm-12 py-md-14 py-lg-15 py-xl-16">
     <v-row justify="center" align="end" class="py-0">
       <v-col cols="3">
-        <h3>SaffyWater inspiration</h3>
+        <h3 class="section-header">SaffyWater inspiration</h3>
       </v-col>
     </v-row>
     <div class="number-heading">2</div>
